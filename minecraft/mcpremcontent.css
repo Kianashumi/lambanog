@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+*{
+   font-family: 'Kanit', sans-serif;
+}
+
+body {
+   margin-top: 200px;
+   background-color: rgb(0, 0, 0);
+}
+
+.prem-fac {
+   margin-top: 10px;
+}
+
+.serverprem {
+   background-color: rgb(37, 38, 38);
+   width: 1050px;
+   height: 1050px;
+   float: right;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+
+h1 {
+   text-align: center;
+   font-family: 'Monomaniac One', sans-serif;
+   background-color: rgba(255, 254, 254, 0.4);
+   font-size: 40px;
+   float: right;
+   width: 500px;
+   color: rgb(228, 192, 83);
+   text-shadow: 2px 1px 1px black;
+}
+
+.menu {
+   margin: 0;
+   padding: 0;
+   width: 900px;
+   height: 1000px;
+   background-color: rgb(76, 80, 80);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 0px;
+}
+
+.menu p {
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+}
+
+.menu h2:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.menu img {
+   width: 200px;
+   border-radius: 20%;
+}
+
+.silver, .gold, .platinum {
+   margin: 40px;
+   margin-top: -470px;
+}
+
+.silver  h2 {
+   color: rgb(210, 213, 215);
+}
+
+.silver img {
+   box-shadow: -1px 0px 10px rgb(210, 213, 215);
+}
+
+.gold h2 {
+   color: rgb(213, 220, 85);
+}
+
+.gold img {
+   box-shadow: -1px 0px 10px rgb(213, 220, 85);
+}
+
+.platinum h2 {
+   color: rgb(25, 157, 157);
+}
+
+.platinum img {
+   box-shadow: -1px 0px 10px rgb(25, 157, 157);
+}
+
+.silver h2, p, .gold , .platinum  {
+   text-align: center;
+}
+
+.legend {
+   position: absolute;
+   margin-top: 200px;
+   margin-right: 557px;
+}
+
+.legend img {
+   box-shadow: -1px 0px 10px rgb(173, 42, 206);
+}
+
+.legend  h2 {
+   margin-left: 35px;
+   color: rgb(173, 42, 206);
+}
+
+.mythical {
+   position: absolute;
+   margin-top: 200px;
+}
+
+.mythical  h2 {
+   margin-left: 32px;
+   color: rgb(31, 231, 128);
+}
+
+.mythical img {
+   box-shadow: -1px 0px 10px rgb(31, 231, 128);
+}
+
+.immortal {
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 580px;
+}
+
+.immortal  h2 {
+   margin-left: 32px;
+   color: rgb(213, 24, 97);
+}
+
+.immortal img {
+   box-shadow: -1px 0px 10px rgb(213, 24, 97);
+}
+
+.legend, .immortal, .mythical {
+   margin-top: 500px;
+}
+
+.prem-content-skyblock {
+   background-color: rgb(37, 38, 38);
+   width: 1050px;
+   height: 1200px;
+   float: right;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.prem-content-skyblock h2:hover {
+   text-decoration: underline;
+}
+
+.serverprem2 {
+   margin: 0;
+   padding: 0;
+   width: 900px;
+   height: 1150px;
+   background-color: rgb(76, 80, 80);
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+}
+
+.serverprem2 img {
+   width: 200px;
+   border-radius: 20%;
+   margin: 40px;
+   margin-top: 100px;
+}
+
+.serverprem2 p {
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+}
+
+.wanderer h2, wanderer p, .traveler h2, traveler p, .trailblazer  h2, .trailblazer p  {
+   text-align: center;
+   margin-top: 0px;
+}
+
+.wanderer h2 {
+   color: aqua;
+}
+
+.wanderer img {
+   box-shadow: -1px 0px 10px rgb(0,255,255);
+}
+
+.traveler h2 {
+   color: bisque;
+}
+
+.traveler img {
+   box-shadow: -1px 0px 10px bisque
+}
+
+.trailblazer h2 {
+   color: gainsboro;
+}
+
+.trailblazer img {
+   box-shadow: -1px 0px 10px gainsboro
+}
+
+.guardian h2, .guardian p, .overseer h2, .superior h2 {
+   text-align: center;
+}
+
+.guardian, .overseer, .superior {
+   position: absolute;
+   margin-top: 550px;
+
+}
+
+.guardian {
+   margin-right: 557px;
+}
+
+.guardian h2 {
+   color: rgb(186, 223, 42);
+}
+
+.guardian img {
+   box-shadow: -1px 0px 10px rgb(186, 223, 42);
+}
+
+.overseer {
+   margin-left: 580px;
+}
+
+.overseer h2 {
+   color: rgb(185, 132, 234);
+}
+
+.overseer img {
+   box-shadow: -1px 0px 10px  rgb(185, 132, 234);
+}
+
+.superior h2 {
+   color: plum;
+}
+
+.superior img {
+    box-shadow: -1px 0px 10px plum
+}
+
+.prem-content-prison {
+   background-color: rgb(37, 38, 38);
+   width: 1050px;
+   height: 1150px;
+   float: right;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.prison-menu {
+   margin: 0;
+   padding: 0;
+   width: 900px;
+   height: 1100px;
+   background-color: rgb(76, 80, 80);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 0px;
+}
+
+.prison-menu img {
+   width: 200px;
+   border-radius: 20%;
+   margin: 40px;
+}
+
+.prison-menu h2 {
+   text-align: center;
+}
+
+.prison-menu p {
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+}
+
+.smuggler, .prisoner, .gangster {
+   margin-top: -470px;
+   text-align: center;
+}
+
+.smuggler h2, .prisoner h2, .gangster h2  {
+   margin-top: -30px;
+}
+
+.mafia, .kingpin, .lord {
+   position: absolute;
+   margin-top: 550px;
+}
+
+.mafia {
+   margin-right: 557px;
+}
+
+.lord {
+   margin-left: 580px;
+}
+
+.smuggler h2 {
+   color: silver;
+}
+
+.smuggler img {
+   box-shadow: -1px 0px 10px silver
+}
+
+.prisoner h2 {
+   color: brown;
+}
+
+.prisoner img {
+   box-shadow: -1px 0px 10px brown
+}
+
+.gangster h2 {
+   color: gold;
+}
+
+.gangster img {
+   box-shadow: -1px 0px 10px gold
+}
+
+.mafia h2 {
+   color: skyblue;
+}
+
+.mafia img {
+   box-shadow: -1px 0px 10px skyblue
+}
+
+.kingpin h2 {
+   color: rgb(51, 0, 255);
+}
+
+.kingpin img {
+   box-shadow: -1px 0px 10px rgb(51, 0, 255);
+}
+
+.lord h2 {
+   color: lime
+}
+
+.lord img {
+   box-shadow: -1px 0px 10px lime
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title of the site lol</title>
+        <style>
+            #ganyu{
+            margin-left: 30px;
+            margin-top: 10px;
+            }
+            #textarea {
+                background-color: cyan;
+                font-family: Lucida Sans;
+            }
+            #chars {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            body{background-color: darkseagreen;}
+        </style>
+        <h1 id="top" style="text-align:center; font-family: Lucida Sans;">Welcome!</h1>
+        <h1 style= "font-family:Lucida Sans; text-align: center;" >Click on the image to go view the video!
+        </h1>
+        <hr>
+        <!--Destroyer-->
+        <h2 id="destroyer" style= "color:saddlebrown">Destroyer thumbnail</h1>
+            <a href="https://www.youtube.com/watch?v=4mtd_r8j88o"target="_blank">
+                <img src="/genshin images/gg ez.png" width="500" height="250" alt="Destroyer thumbnail">
+            </a>
+            <audio id="ganyu"controls loop>
+                <source src = "audio/dj-Nate - Thermodynamix.wav">
+            </audio>
+        <p>In this video I just destroyed the destroyer lol &copy;</p>
+        <hr>
+        <!--Cyno-->
+        <h2 style= "color:violet">Cyno thumbnail</h2>
+        <a href="https://www.youtube.com/watch?v=Q2BLJ1QZYwo"target="_blank" title="Cyno vs Azhdaha?">
+            <img src="/genshin images/wolf vs lizard.jpg" alt="cyno thumbnail">
+        </a>   
+        <hr> 
+        <h2 style= "color:darkslateblue">Seele "Veliona"</h2>
+            <a href="https://www.youtube.com/watch?v=CZFQPupSEnk&t=460s"target="_blank">
+                <img src="https://i.ytimg.com/vi/PPd66miEW6M/maxresdefault.jpg" width= "500" alt="Seele">
+            </a>
+        <hr>
+        <h1>This is the end of my website... Or is it?</h1>
+        <ol type="1">
+            <li><b>Ra Ra Rasputin</b></li>
+            <li><b>Core Pride</b></li>
+                <ul>
+                    <li>TV Size</li>
+                    <li>Raise a Sullen</li>
+                </ul>
+            <li><b>Roar of the Jungle Dragon</b></li>
+                <ul>
+                    <li>Extended</li>
+                    <li>Yharon</li>
+                </ul>
+            <li><b>Save Your Tears</b></li>
+        </ol>
+        <h2>Radio Buttons</h2>
+        <input type="radio" name="songs" id=""> Ra Ra Rasputin <br>
+        <input type="radio" name="songs" id=""> Core Pride <br>
+        <input type="radio" name="songs" id=""> Roar of the Jungle Dragon <br> 
+        <input type="radio" name="songs" id=""> Save Your Tears <br>
+        <a href="Genshin Impact.html">
+            <h3 style="color:darkgreen;" title="hi">Next page?
+                </h3>
+        </a>
+        <a href="#top">
+            <h3 style="color:darkgreen;">Back to the top?</h3>
+        </a>
+        <a href="#destroyer">
+            <h3 style="color:darkgreen;">Go to destroyer</h3>
+        </a>
+        <br>
+        <h1>Forms</h1>
+    <form action="" method="">
+        <label for='name'>First Name: </label>
+        <input type="text" name="name" id="Fname" placeholder="First Name">
+        <br>
+        <br>
+        <label for='password'>Password: </label>
+        <input type="password" name="name" id="password" placeholder="password">
+        <button type="submit">Submit?</button> <br>
+        <p>Select your favorite genshin characters.</p>
+        <select name="Genshin" id="chars">
+            <option style="display:none"> --Select--</option>
+            <option value="Baizhu">Baizhu</option>
+            <option value="Nahida">Nahida</option>
+            <option value="Tighnari">Tighnari</option>
+        </select>
+    </form>
+    <br>
+    <textarea readonly name="test" id="textarea" cols="30" rows="10">Description</textarea>
+    <div id="slideshow">
+        <img src="/genshin images/300px-Kururin_logo.png">
+        <img src="/genshin images/300px-Kururin_logo.png">
+        <img src="/genshin images/300px-Kururin_logo.png">
+    </div>
+    <script type="text/javascript">
+    let slideIndex = 0;
+        const images = document.querySelectorAll('#slideshow img');
+        
+        function showSlide(index) {
+            images.forEach(img => img.style.display = 'none');
+            images[index].style.display = 'block';
+        };
+        
+        function nextSlide() {
+            slideIndex++;
+            if (slideIndex >= images.length) {
+                slideIndex = 0;
+            };
+            showSlide(slideIndex);
+        };
+        
+        setInterval(nextSlide, 3000);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+.image-list {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .image-list li {
+   display: inline-block;
+   text-align: center;
+   line-height: 200px;
+ }
+ 
+ .image-list li img {
+   width: 200px; /* adjust the width as per your requirements */
+ }
+ 
+ .image-list li .image-caption {
+   margin-top: 5px; /* adjust the margin as per your requirements */
+ }
+
+ .image-caption {
+  width: 200px;
+ }
+ 

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+
+*{
+   font-family: 'Kanit', sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: antiquewhite;
+}
+
+.fbashumi {
+   color: red;
+}
+
+.fbbrooski{
+   color: #5452c1;
+}
+
+.fbkhy {
+   color: #5452c1;
+}
+
+.fbayce {
+   color: #5452c1;
+}
+
+.fbdgl {
+   color: #5452c1;
+}
+
+.fbyaku {
+   color: #52e752;
+}
+
+.fbshuu {
+   color: #e4bd0d;
+}
+
+body {
+   background-color: black;
+}
+
+.logo {
+   border-radius: 0%;
+   transition: 0ms;
+}
+
+.ourbeloved {
+   margin-top: 200px;
+}
+
+.shack {
+   transition: 0ms;
+}
+img {
+   width: 200px;
+   position: relative;
+   height: auto;
+   border-radius: 50%;
+   transition: 1000ms;
+}
+.staff1 img:hover {
+   transform: rotate(360deg);
+}
+
+.nav1 {
+   margin-top: 200px;
+   margin-left: 125px;
+}
+
+.nav1 img {
+   margin-right: 180px;
+   border: 2px solid white;
+   margin-top: 15%;
+}
+
+
+h1 {
+   margin: auto;
+   margin-top: 50px;
+   font-size: 40px;
+   width: 1000px;
+   text-align: center;
+   color: white;
+}
+
+.thankyou {
+   color: white;
+   margin: auto;
+   text-align: center;
+}
+
+.clickprof {
+   color: white;
+   margin: auto;
+   text-align: center;
+   font-size: 20px;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-offset: 5px;
+}
+
+.staff1 {
+   text-align: center;
+   margin-top: -300px;
+  color: aliceblue;
+}
+
+.ashumi, .brooski, .khy, .ayce, .dgl, .yaku, .shuu {
+   position: absolute;
+   margin-top: -3px;
+}
+
+.ashumi:hover, .brooski:hover, .khy:hover, .ayce:hover, .dgl:hover, .yaku:hover, .shuu:hover {
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-offset: 5px;
+}
+
+.ashumidesc, .brooskidesc, .aycedesc, .khydesc, .dgldesc, .yakudesc, .shuudesc {
+   position: absolute;
+   margin-top: 3%;
+}
+
+.ashumi {
+   left: 195px;
+   color: red;
+}
+
+.ashumidesc {
+   width: 20%;
+   left: 8%;
+}
+
+.brooski {
+   left: 588px;
+   color: #5452c1;
+}
+
+.brooskidesc {
+   left: 38%;
+   width: 20%
+}
+
+.khy {
+   left: 995px;
+   color: #5452c1;
+}
+
+.khydesc {
+   left: 68%;
+   width: 20%;
+}
+
+.ayce{
+   left: 210px;
+   color: #5452c1;
+}
+
+.aycedesc {
+   left: 8%;
+   width: 20%;
+}
+
+.dgl{
+   left: 605px;
+   color: #5452c1;
+}
+
+.dgldesc {
+   left: 37%;
+}
+
+.yaku {
+   left: 990px;
+   color: #52e752;
+}
+
+.yakudesc {
+   left: 68%;
+   width: 20%;
+}
+
+.shuu {
+   left: 600px;
+   color: #e4bd0d;
+}
+
+.shuudesc {
+   left: 38%;
+   width: 20%;
+}
+
+.interested {
+   margin-top: 10%;
+   background-color: #e4bd0d;
+   width: fit-content;
+   transition: 500ms;
+   border-radius: 20px;
+   width: 50%;
+   margin-left: 23%;
+}
+
+.interested h1 {
+   color: black;
+   margin-left: -170px;
+}
+
+.interested p {
+   text-align: center;
+   margin-top: -5px;
+   font-size: 20px;
+   color: black;
+   text-shadow: 0px 1px 1px black;
+}
+
+.interested:hover {
+   background-color: rgba(228, 189, 13, 0.7);
+   color: black;
+}

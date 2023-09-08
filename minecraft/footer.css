@@ -1,0 +1,199 @@
+.footerhr {
+   margin-left: -8px;
+   width: 1302px;
+  border-color: black;
+  margin-top: 60px;
+}
+
+.aboutus {
+   color: white;
+   margin-left: 50px;
+   font-weight: bolder;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+}
+.info {
+   position: absolute;
+   width: 20px;
+   height: auto;
+   margin-left: 23px;
+   margin-top: 4px;
+   background-color: rgb(252, 252, 252);
+   border-radius: 10px;
+}
+.aboutulit {
+   color: white;
+   width: 250px;
+   padding: 10px;
+   line-height: 2;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.vline3{
+   border-left: 1px solid rgb(244, 244, 244);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: -270px;
+}
+
+.vline6{
+   border-left: 1px solid rgb(244, 244, 244);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: -270px;
+}
+.vline4{
+   border-left: 1px solid rgb(244, 241, 241);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 620px;
+   margin-top: -270px;
+}
+
+.vline7{
+   border-left: 1px solid rgb(244, 241, 241);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 620px;
+   margin-top: -270px;
+}
+.vline5{
+   border-left: 1px solid rgb(255, 253, 253);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 890px;
+   margin-top: -270px;
+}
+
+.vline8{
+   border-left: 1px solid rgb(244, 241, 241);
+   height: 280px;
+   float:right;
+   position: absolute;
+   margin-left: 620px;
+   margin-top: -270px;
+}
+.emark {
+   width: 20px;
+   height: auto;
+   border-radius: 10px;
+   position: absolute;
+   margin-left: 320px;
+   margin-top: 2px;
+}
+.links {
+   position: absolute;
+   margin-left: 350px;
+   margin-top: -1px;
+   color: white;
+   font-weight: bolder;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+}
+.footerusefullinks  {
+   list-style-type: none;
+   line-height: 40px;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: 52px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul.footerusefullinks li a {
+   color: rgb(254, 254, 254);
+}
+.footersocials {
+   position: absolute;
+   margin-left: 675px;
+   margin-top: -1px;
+   color: white;
+   font-weight: bolder;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+}
+.socialplay {
+   width: 25px;
+   height: auto;
+   border-radius: 13px;
+   background-color: aliceblue;
+   position: absolute;
+   margin-left: 639px;
+   margin-top: 0px;
+}
+.fb {
+   width: 50px;
+   height: auto;
+   border-radius: 30px;
+   background-color: #2b2b27;
+   position: absolute;
+   margin-left: 639px;
+   margin-top: 70px;
+   transition: 0.8s;
+}
+.instagram {
+   width: 50px;
+   height: auto;
+   border-radius: 30px;
+   background-color: #2b2b27;
+   position: absolute;
+   margin-left: 700px;
+   margin-top: 70px;
+   transition: 0.8s;
+}
+.youtube {
+   width: 50px;
+   height: auto;
+   border-radius: 60px;
+   background-color: #2b2b27;
+   position: absolute;
+   margin-left: 820px;
+   margin-top: 70px;
+   transition: 0.8s;
+}
+.twitter {
+   width: 63px;
+   height: auto;
+   border-radius: 50px;
+   background-color: #2b2b27;
+   position: absolute;
+   margin-left: 753px;
+   margin-top: 64px;
+   transition: 0.8s;
+}
+.instagram:hover, .twitter:hover, .youtube:hover, .fb:hover {
+   opacity: 0.4;
+}
+.contactus {
+   float: right;
+   margin-top: -200px;
+   margin-right: 130px;
+}
+.contactme{
+   line-height: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+   text-decoration: underline;
+}
+.contacttitle {
+   margin-top: -44px;
+   color: white;
+   font-weight: bolder;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   font-size: 25px;
+   margin-left: 100px;
+}
+.phone {
+   width: 36px;
+   border-radius: 60px;
+   height: auto;
+  background-color: white;
+   position: absolute;
+   margin-left: 56px;
+   margin-top: -55px;
+}

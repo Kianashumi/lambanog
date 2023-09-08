@@ -1,0 +1,80 @@
+//CSS
+
+.dropbtn {
+   margin-top: -20px;
+}
+
+.dropbtn:hover, .menu:focus {
+   background-color: gray;
+}
+
+
+.dropdown {
+   position: absolute;
+  display: inline-block;
+  left: 12px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   overflow: auto;
+   box-shadow: 0px 8px 16px 0px rgba(255, 7, 7, 0.2);
+   z-index: 1;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.dropdown-content a {
+   color: rgb(242, 4, 4);
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+ .show {display: block;}
+
+ //html
+
+ <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">
+                            Menu
+                            </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">
+                                Home
+                            </a>
+                            <a href="#about">
+                                About
+                            </a>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </div>
+
+//javascript 
+
+<script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+   </script>

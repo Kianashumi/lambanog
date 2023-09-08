@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lilita+One&family=Roboto+Condensed:wght@700&display=swap');
+
+.inside-nether {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 48px 32px;
+   background-color: rgb(255, 255, 255);
+}
+
+.inside-nether img {
+   width: 200px;
+}
+
+.inside-nether h3 {
+   width: auto;
+   color: aliceblue;
+}
+.inside-nether .nether {
+   font-size: 3.5rem;
+   color: rgb(121, 8, 4);
+   margin-bottom: 3rem;
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+   border-radius: 5rem;
+}
+
+.nether {
+   font-family: 'Lilita One', cursive;
+   text-shadow: 2px 1px 3px rgb(255, 0, 0);
+   text-shadow: 2px 1px 3px rgb(227, 224, 224);
+}
+
+.inside-nether .nether-item-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 10rem;
+      text-align: center;
+}
+
+.inside-nether .nether-item-container .nether-item {
+   padding: 3rem 2rem;
+   background: rgba(147, 1, 1, 0.82);
+   box-shadow: 0 1rem 3rem rgb(0, 0, 0);
+   border-radius: 3rem;
+}
+
+.nether-item-price {
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 25px;
+}
+
+.inside-nether .nether-item-container .nether-item h3 {
+   padding: .5rem 0;
+   font-size: 1.4rem;
+}
+
+.inside-nether .nether-item-container .nether-item .nether-item-price {
+   font-size: 2rem;
+}
+
+.inside-nether .nether-item-container .nether-item:hover {
+   transform: scale(1.1);
+   cursor: pointer
+}
+
+.nether-item .nether-item-price {
+   line-height: 3px;
+   color: aliceblue;
+}
+
+.nether-item-preview {
+   position: fixed;
+   top: 0; left: 0;
+   min-height: 100vh;
+   width: 100%;
+   background-color: rgba(0,0,0,0.8);
+   display: none;
+   align-items: center;
+   justify-content: center;
+   z-index: 10;
+}
+
+.nether-item-preview .nether-preview {
+   display: none;
+   text-align: center;
+   padding: 2rem;
+   background: white;
+   border-radius: 10%;
+   position: relative;
+   margin: 2rem;
+   width: 20rem;
+}
+
+.nether-item-preview .nether-preview.active {
+   display: inline-block;
+}
+
+.nether-item-preview .nether-preview img {
+   width: 150px;
+}
+
+.nether-item-preview .nether-preview .fa-solid{
+   position: absolute;
+   top:1rem; right: 1.5rem;
+   cursor: pointer;
+   color: rgb(0, 0, 0);
+   font-size: 2rem;
+}
+
+.nether-item-preview .nether-preview h3 {
+   font-size: 2rem;
+   padding: .5rem 0;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nether-item-preview .nether-preview p {
+   line-height: 1.5;
+   padding: 1rem 0;
+   font-size: 1.6rem;
+   font-family: 'Monomaniac One', sans-serif;
+}
+
+.nether-item-preview .nether-preview .nether-price {
+   padding: 1rem 0;
+   font-size: 2rem;
+   color: green;
+   margin-top: -30px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nether-item-preview .nether-preview .buttons {
+   display: flex;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+   float: right;
+   
+}
+
+.nether-item-preview .nether-preview .buttons a {
+   flex: 1 1 16rem;
+   padding: 1rem;
+   font-size: 1.8rem;
+   color: #000000;
+   border: 2px solid black;
+   text-decoration: none;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nether-item-preview .nether-preview .buttons a:hover {
+   background: rgba(7, 238, 3, 0.509);
+}

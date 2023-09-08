@@ -1,0 +1,210 @@
+html {
+    overflow-x: hidden;
+}
+.stafftitle {
+    font-size: 30px;
+    margin-top: 2px;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 2px 1px 10px yellow;
+}
+.ashumi {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -603px;
+    margin-left: -67px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.owner {
+    font-weight: bold;
+    color: red;
+    font-family: 'Segoe UI';
+    background-color: rgba(255, 255, 255,0.7);
+    border: 2px solid black;
+    height: 30px;
+    padding: 15px;
+    text-indent: 34px;
+    font-size: 23.5px;
+    border-radius: 15px;
+}
+.titleowner {
+    font-size: 12px;
+    margin-top: -42px;
+    margin-left: 74px;
+    position: absolute;
+    font-weight: bold;
+}
+.brooski {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -515px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-left: -68px;
+}
+.admin1 {
+    font-weight: bold;
+    color: #5452c1;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    padding: 15px;
+    text-indent: 34px;
+    font-size: 23.5px;
+    border-radius: 15px;
+}
+.titleadmin {
+    font-size: 12px;
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 74px;
+    font-weight: bold;
+}
+.khy {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -425px;
+    margin-left: -69px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.admin2 {
+    font-weight: bold;
+    color: #5452c1;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    font-size: 23.5px;
+    text-indent: 34px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.titleadmin2 {
+    font-size: 12px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 74px;
+}
+.ayce {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -337px;
+    margin-left: -69px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.admin3 {
+    font-weight: bold;
+    color: #5452c1;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    font-size: 23.5px;
+    padding: 15px;
+    text-indent: 32px;
+    border-radius: 15px;
+}
+.titleadmin3 {
+    font-size: 12px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -42px;
+    margin-left: 74px;
+}
+.dgl {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -247px;
+    margin-left: -69px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.admin4 {
+    font-weight: bold;
+    color: #5452c1;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    font-size: 23.5px;
+    padding: 15px;
+    text-indent: 34px;
+    border-radius: 15px;
+}
+.titleadmin4 {
+    font-size: 12px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -42px;
+    margin-left: 74px;
+}
+.yaku {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -160px;
+    margin-left: -69px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.moderator {
+    font-weight: bold;
+    color: #356a35;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    font-size: 23.5px;
+    padding: 15px;
+    text-indent: 36px;
+    border-radius: 15px;
+}
+.titlemoderator {
+    font-size: 12px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -42px;
+    margin-left: 66px;
+}
+.ppen {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -70px;
+    margin-left: -69px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.helper {
+    font-weight: bold;
+    color: #745f05;
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Segoe UI';
+    border: 2px solid black;
+    font-size: 23.5px;
+    padding: 15px;
+    text-indent: 32px;
+    border-radius: 15px;
+}
+.titlehelper {
+    font-size: 12px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -41px;
+    margin-left: 74px;
+}
